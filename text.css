@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/***** navigation *****/
+nav {
+    text-align: center;
+    font-family: "Rubik";
+    background-color: rgb(71, 108, 159);
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    z-index: 10;
+    top: 0px;
+    border: 1px solid rgba(71, 108, 159, 0.879);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#navigation li {
+    display: inline;
+    margin: 0 1rem;
+    text-align: center;
+    font-style: normal;
+}
+#navigation a {
+    color: #e9ebf6;
+    font-size: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    word-spacing: 0rem;
+    border: 1px solid rgba(38, 52, 46, 0.7);
+    padding: 0.5rem 1rem;
+    background-color: rgba(45, 66, 57, 0.7);
+    box-shadow: 3px 3px 2px rgba(27, 27, 27, 0.7);
+    border-radius: 10px;
+}
+#navigation a:hover {
+    transition: background-color 1.5s;
+    background-color: rgba(28, 113, 178, 0.5);
+    color: #e9ebf6;
+    cursor: pointer;
+}
+#navigation a:active {
+    background-color: rgba(28, 113, 178, 0.5);
+    color: #e9ebf6;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+@media screen and (max-width: 768px) {  #navigation li {
+    display: inline-block;
+    margin: 1rem 0.5rem;
+}
+#navigation a:active {
+    font-size: 0.5em;
+}
+}
+/***** Section *****/ 
+section {
+    margin-top: 70px;
+    line-height: 1.5;
+    padding: 20px;
+}
+.main h2 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    letter-spacing: 0em;
+    font-family: 'lato';
+    font-weight: 700;
+    font-size: 35px;
+}
+.sub h2 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    letter-spacing: 0em;
+    font-family: 'rubik';
+    font-weight: 400;
+    font-size: 30px;
+}
+.para h2 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    letter-spacing: 0em;
+    font-family: 'merienda';
+    font-weight: 300;
+    font-size: 20px;
+}
+div ul {
+    list-style-type:circle;
+    letter-spacing: 0em;
+    font-family: 'merienda';
+    font-weight: 300;
+    font-size: 20px;
+}
+.texth {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    letter-spacing: 0em;
+    font-family: 'rubik';
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+}
+
