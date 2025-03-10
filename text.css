@@ -48,9 +48,13 @@ nav {
     font-size: 0.7em;
     cursor: pointer;
 }
-@media screen and (max-width: 768px) {  #navigation li {
+@media screen and (max-width: 600px) {  #navigation li {
     display: inline-block;
-    padding: 5px 0px 5px 0px;
+    margin: 5px;
+}
+nav {
+    height: 70px;
+    width: 100%;
 }
 #navigation a:active {
     font-size: 0.5em;

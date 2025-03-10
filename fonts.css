@@ -51,7 +51,11 @@ nav {
 }
 @media screen and (max-width: 768px) {  #navigation li {
     display: inline-block;
-    margin: 1rem 0.5rem;
+    margin: 2px;
+}
+nav {
+    height: 70px;
+    width: 100%;
 }
 #navigation a:active {
     font-size: 0.3em;
